@@ -11,47 +11,221 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
   <div class="container">
-    <h1>MeSeems Application Test </h1>
+    <h3 class="text-center">MeSeems Application Test </h3>
   </div>
 
   <div class="container bg-white">
     <div class="row">
-      <div class="col-md-3 col-lg-3">
+      <div class="col-md-4 col-lg-4" style="border:1px solid blue;">
 
-        <div>
+        <div class="panel">
+          <ul class="nav nav-tabs">
+            <li>
+              <a href="#home" data-toggle="tab">PROJETS EN COURS <span class="badge">2</span></a>
+            </li>
+            <li>
+              <a href="#profile" data-toggle="tab">PROJETS TERMINÉS</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade active in" id="home">
+            </div>
+            <div class="tab-pane fade" id="profile">
+            </div>
+          </div>
+        </div>
 
-          <div class="bs-component">
-            <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-              <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-              <li><a href="#profile" data-toggle="tab">Profile</a></li>
-            </ul>
-            <div class="tab-content">
-              <div class="tab-pane fade active in" id="home">
-                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search something...">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- People's line -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
               </div>
-              <div class="tab-pane fade" id="profile">
-                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar4.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Dan</strong></h5>
+                <p>TR-045420-11029</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar6.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Meagan</strong></h5>
+                <p>PR-99099-30200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar1.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Morgan Allan</strong></h5>
+                <p>PR-21059-7720</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object unknown-user" src="images/unknown_user.png" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Jesus</strong></h5>
+                <p>CW-33312-07250</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-lg-8" style="border:1px solid green;">
+
+        <div class="conversation-component">
+
+          <div class="conversation-header" style="border:1px solid orange">
+            <ul class="list-unstyled list-inline">
+              <li class="text-uppercase">Conversation with <strong>Thomas</strong></li>
+              <li>TR-02344-12344</li>
+            </ul>
+          </div>
+
+          <div class="conversation-talking">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <img class="media-object" src="images/avatar3.jpg" alt="avatar img">
+              </div>
+              <div class="media-body">
+                <h5 class="media-heading text-uppercase"><strong>Thomas</strong></h5>
+                <p>TR-02344-12344</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="input-group">
+              <input type="textarea" class="form-control" placeholder="Write a reply...">
+            </div>
+          </div>
+        </div>
+
+
+          </div>
 
         </div>
-        <div class="col-md-9 col-lg-9"></div>
 
       </div>
-    </div>
 
-    
-    <!-- jQuery -->
-    <script src="js/jquery-2.2.1.min.js"></script>
-    <!-- Bootstrap Js -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-  </html>
+    </div>
+  </div>
+
+
+  <!-- jQuery -->
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
